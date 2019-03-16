@@ -1,33 +1,77 @@
+
+<h1 align="center">
 HideHomeTime
-=======================
+</h1>
+<br/>
+<h3 align="center">
+hide the status bar time on the home screen
+</h3>
 
-Hide the status bar time on the home screen.
+<p align="center">
+  <a href="https://github.com/insanj/HideHomeTime/releases">
+    <img src="https://img.shields.io/github/release/insanj/HideHomeTime.svg" />
+  </a>
+  
+  <a href="https://github.com/insanj/HideHomeTime/releases">
+    <img src="https://img.shields.io/github/release-date/insanj/HideHomeTime.svg" />
+  </a>
 
----------------------------------------
-	Simplified BSD License
-	Copyright (c) 2014, Julian Weiss
-	All rights reserved.
+  <a href="https://github.com/insanj/HideHomeTime/">
+    <img src="https://img.shields.io/github/languages/code-size/insanj/HideHomeTime.svg" />
+  </a>
 
-	Redistribution and use in source and binary forms, with or without
-	modification, are permitted provided that the following conditions are met: 
+  <br/>
 
-	1. Redistributions of source code must retain the above copyright notice, this
-	list of conditions and the following disclaimer. 
-	2. Redistributions in binary form must reproduce the above copyright notice,
-	this list of conditions and the following disclaimer in the documentation
-	and/or other materials provided with the distribution. 
+  <a href="https://github.com/insanj/portal/blob/master/LICENSE">
+    <img src="https://img.shields.io/github/license/insanj/portal.svg" />
+  </a>
+  
+  <a href="https://github.com/theos/theos">
+    <img src="https://img.shields.io/badge/theos-2.5-purple.svg" />
+  </a>
+  
+  <a href="http://cydia.saurik.com/package/com.insanj.hidehometime/">
+    <img src="https://img.shields.io/badge/🚀-Learn%20more%20on%20Cydia-orange.svg" />
+  </a>
+</p>
 
-	THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND
-	ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED
-	WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE
-	DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT OWNER OR CONTRIBUTORS BE LIABLE FOR
-	ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES
-	(INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES;
-	LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND
-	ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT
-	(INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS
-	SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
-	The views and conclusions contained in the software and documentation are those
-	of the authors and should not be interpreted as representing official policies, 
-	either expressed or implied, of the FreeBSD Project.
+## How to Use
+
+- Install the `.deb` on a jailbroken device [from the releases tab](https://github.com/insanj/HideHomeTime/releases)
+- Respring to hide the status bar time on the home screen!
+
+## How to Build
+
+1. Install [Theos](https://iphonedevwiki.net/index.php/Theos/Setup)
+2. Run `make package` or, if already on an iOS device, `make package install`
+
+## Authors
+
+(c) 2019 Julian Weiss. [github.com/insanj](https://github.com/insanj)
+
+## License
+
+```
+MIT License
+
+Copyright (c) 2014-2019 Julian Weiss
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+```
